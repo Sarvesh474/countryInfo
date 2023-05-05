@@ -73,7 +73,7 @@ function CheckBoxDrop() {
                             <h5>
                           <p>Country: {search.name.common}</p>
                           <p>Country Capital: {search.capital}</p>
-                          <p>Currencies: {Object.values(search.currencies).join(", ")}</p>
+                          <p>Currencies: {(search.currencies[Object.keys(search.currencies)].name)}</p>
                           <p>Languages: {Object.values(search.languages).join(", ")}</p>
                           </h5>
                           </li>
