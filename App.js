@@ -1,6 +1,6 @@
 import React from 'react'
 // import "./App.css"
-import CheckBoxDrop from './components/CheckBoxDrop'
+import CheckBoxDrop from './CheckBoxDrop'
 
 const App = () => {
   return  <CheckBoxDrop/>
