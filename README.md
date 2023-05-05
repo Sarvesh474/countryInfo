@@ -1,2 +1,0 @@
-# countryInfo
-Frontend-React
